@@ -1,0 +1,25 @@
+{
+ "name": "templates",
+ "version": "0.0.0",
+ "authors": [
+   "Steve Brownlee <chortlehoort@gmail.com>"
+ ],
+ "license": "MIT",
+ "ignore": [
+   "**/.*",
+   "node_modules",
+   "bower_components",
+   "test",
+   "tests"
+ ],
+ "dependencies": {
+   "angular": "1.4.4",
+   "angular-filter": "~0.5.5",
+   "angular-route": "1.4.4",
+   "angularfire": "~1.1.2",
+   "bootstrap": "~3.3.5",
+   "firebase": "^2.4.1",
+   "jquery": "~2.1.4",
+   "lodash": "~3.10.1"
+ }
+}
