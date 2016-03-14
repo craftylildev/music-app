@@ -1,9 +1,10 @@
 {
-  "predef": [ "document", "console", "angular", "require" ],
-  "esversion": 6,  
+  "predef": [ "document", "console", "angular", "Firebase" ],
+  "esversion": 6,
   "globalstrict": true,
   "curly": true,
   "eqeqeq": true,
   "undef": true,
-  "unused": true
- }
+  "unused": true,
+  "globals": { "MusicHistory": true }
+}
