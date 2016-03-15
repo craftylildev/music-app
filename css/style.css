@@ -1,0 +1,114 @@
+/*---------- MAIN ----------*/
+nav {
+  margin: 10px 0;
+  border-bottom: 2px solid #049B9C; }
+
+nav ul {
+  display: inline-block; }
+
+.nav {
+  margin-bottom: 10px; }
+
+.nav-pills li a {
+  font-size: 1.25em;
+  color: #049B9C; }
+
+.basic-btn {
+  background: #049B9C;
+  border-radius: 6px;
+  border: none;
+  color: #fff;
+  padding: 4px 12px;
+  margin-top: 10px; }
+
+.basic-btnA:link,
+.basic-btnA:visited {
+  background: #049B9C;
+  border-radius: 6px;
+  border: none;
+  color: #fff;
+  padding: 8px 12px;
+  margin-top: 10px;
+  text-decoration: none; }
+
+.right {
+  float: right; }
+
+.left {
+  float: left; }
+
+/*---------- LOGIN ----------*/
+.login-header {
+  margin-top: 40px;
+  padding: 4px 20px;
+  border-radius: 10px 10px 0 0;
+  background-color: #049B9C; }
+
+.login-bottom {
+  padding: 20px;
+  background-color: #DCEEEE;
+  border-radius: 0 0 10px 10px;
+  text-align: right; }
+
+.login-header h1 {
+  font-size: 1.5em;
+  color: #fff;
+  margin: 8px 0; }
+
+.login-area p {
+  color: #fff; }
+
+.login-area input {
+  margin: 4px 0; }
+
+.login-btn {
+  background: #049B9C;
+  border-radius: 6px;
+  border: none;
+  color: #fff;
+  padding: 4px 12px;
+  margin-top: 6px; }
+
+.genreChkBox {
+  margin-top: 20px; }
+
+ul.genreChkBox {
+  list-style: none; }
+
+.songList a {
+  font-size: 1.25em;
+  color: #049B9C; }
+
+.songList {
+  counter-reset: item;
+  margin-top: 20px; }
+
+.songList ol {
+  list-style: none; }
+
+.songList li {
+  counter-increment: item;
+  margin-bottom: 5px; }
+
+.songList li:before {
+  margin-right: 10px;
+  content: counter(item);
+  background: #049B9C;
+  border-radius: 100%;
+  color: #fff;
+  padding: 2px 8px;
+  text-align: center;
+  display: inline-block; }
+
+.songInput {
+  margin: 4px 0; }
+
+.songBreif {
+  background: #049B9C;
+  border-radius: 10px;
+  padding: 10px;
+  color: #fff; }
+
+.songBreif a:link,
+.songBreif a:visited {
+  color: #DCEEEE; }

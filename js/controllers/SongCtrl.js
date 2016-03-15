@@ -7,7 +7,7 @@ MusicHistory.controller("SongCtrl", [
 
   ($scope, $location, songFactory) => {
     // Default property values for keys bound to input fields
-    $scope.songSearchText = {album: "", artist: "", song: ""};
+    $scope.songSearchText = {album: "", artist: "", song: "", genre: ""};
     $scope.query = "";
     $scope.track_list = [];
 
@@ -22,5 +22,19 @@ MusicHistory.controller("SongCtrl", [
       err => console.log(err)
     );
 
+    // checkbox filter
+    
+    $scope.chkBoxFilter = function (song) {
+      console.log("song", song.chkBoxFilter);
+      if (song.chkBoxFilter === true) {
+        return song;
+      }
+    }  
+
+
   }
 ]);
+
+
+
+

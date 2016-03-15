@@ -1,14 +1,16 @@
+<nav ng-include="'partials/song-nav.html'"></nav>
 
 <div class="row">
   <div class="col-md-4 col-md-offset-4">
   
-    &lt;&lt; <a href="/#/">Back to song listing</a>
-    <div>
+    <div class="songBreif">
+      <a href="/#/">&#9668; Back to song listing</a>
       <h1>{{ selectedSong.song }}</h1>
-      By {{ selectedSong.artist }} on {{ selectedSong.album }}
+      <p>By <strong>{{ selectedSong.artist }}</strong> on {{ selectedSong.album }}.</p>
+      <p><em>{{ selectedSong.genre }}</em></p>
     </div>
 
-    <button ng-click="deleteSong()">Delete Song</button>
+    <button ng-click="deleteSong()" class="basic-btn right">Delete Song</button>
 
   </div>
 </div>
