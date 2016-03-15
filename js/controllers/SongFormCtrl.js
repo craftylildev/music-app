@@ -27,7 +27,8 @@ MusicHistory.controller("SongFormCtrl",
         JSON.stringify({
           album: $scope.newSong.album,
           artist: $scope.newSong.artist,
-          song: $scope.newSong.song
+          song: $scope.newSong.song,
+          genre: $scope.newSong.genre
         })
 
       // The $http.post() method returns a promise, so you can use then()

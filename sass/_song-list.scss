@@ -1,0 +1,35 @@
+.genreChkBox {
+  margin-top: 20px;
+}
+
+ul.genreChkBox {
+  list-style: none;
+}
+
+
+.songList a{
+  font-size:1.25em;
+  color: $primary-color;
+}
+
+.songList{
+  counter-reset: item;
+  margin-top: 20px;
+ }
+ .songList ol {
+  list-style: none;
+ }
+.songList li {
+  counter-increment: item;
+  margin-bottom: 5px;
+ }
+.songList li:before {
+  margin-right: 10px;
+  content: counter(item);
+  background: $primary-color;
+  border-radius: 100%;
+  color: #fff;
+  padding: 2px 8px;
+  text-align: center;
+  display: inline-block;
+ }

@@ -1,0 +1,11 @@
+.songBreif {
+  background: $primary-color;
+  border-radius: 10px;
+  padding: 10px;
+  color: #fff;
+}
+
+.songBreif a:link,
+.songBreif a:visited {
+  color: $secondary-color;
+}

@@ -1,0 +1,62 @@
+
+$primary-color: #049B9C;
+$secondary-color: #DCEEEE;
+
+
+/*---------- MAIN ----------*/
+nav {
+  margin: 10px 0;
+  border-bottom: 2px solid $primary-color;
+}
+
+nav ul {
+  display: inline-block;
+}
+
+.nav {
+  margin-bottom: 10px;
+}
+
+.nav-pills{
+  li{
+    a {
+      font-size: 1.25em;
+      color: $primary-color;
+      }
+    }
+}
+
+.basic-btn {
+  background: $primary-color;
+  border-radius: 6px;
+  border: none;
+  color: #fff;
+  padding: 4px 12px;
+  margin-top: 10px;
+}
+
+.basic-btnA:link,
+.basic-btnA:visited {
+  background: $primary-color;
+  border-radius: 6px;
+  border: none;
+  color: #fff;
+  padding: 8px 12px;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+
+@import 'login';
+@import 'song-list';
+@import 'song-form';
+@import 'song-brief';
